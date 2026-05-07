@@ -11,7 +11,7 @@ const salt = 10
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://teh-store-praktyka-server.vercel.app/',
     methods: ['POST', 'GET'],
     credentials: true
 }))
